@@ -10,6 +10,8 @@
 var datetimepickerFactory = function ($) {
 	'use strict';
 
+	console.log('custom version, ', $);
+
 	var default_options  = {
 		i18n: {
 			ar: { // Arabic
